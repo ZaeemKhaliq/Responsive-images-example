@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Images</title>
+    <link rel="stylesheet" href="./index.css" type="text/css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <img
+        src="./320x240-image.png"
+        srcset="
+          ./320x240-image.png   320w,
+          ./640x480-image.png   640w,
+          ./1024x768-image.png 1024w
+        "
+        sizes="(min-width: 601px) 33vw, 100vw"
+      />
+      <img
+        src="./320x240-image.png"
+        srcset="
+          ./320x240-image.png   320w,
+          ./640x480-image.png   640w,
+          ./1024x768-image.png 1024w
+        "
+        sizes="(min-width: 601px) 33vw, 100vw"
+      />
+      <img
+        src="./320x240-image.png"
+        srcset="
+          ./320x240-image.png   320w,
+          ./640x480-image.png   640w,
+          ./1024x768-image.png 1024w
+        "
+        sizes="(min-width: 601px) 33vw, 100vw"
+      />
+    </div>
+  </body>
+</html>
